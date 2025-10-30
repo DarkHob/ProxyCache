@@ -28,7 +28,7 @@ class FetchSongWorker(QThread):
             self.error.emit(str(e))
 
 # =========================
-#   Estilos y UI principal
+#   Estilos y UI principales
 # =========================
 BOOTSTRAPISH_QSS = """
 /* Paleta inspirada en Bootstrap 5 */
